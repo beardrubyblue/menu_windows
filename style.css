@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	background-color: rgb(19, 19, 88);
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
+}
+.header {
+	margin-top: 50px;
+}
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.title {
+	font-size: 42px;
+}
+
+.header__inner img {
+	width: 25px;
+}
+
+.lk img {
+	width: 43px;
+}
+
+.nav {
+	display: flex;
+	gap: 50px;
+	align-items: center;
+}
+.lk {
+	display: flex;
+	gap: 25px;
+	align-items: center;
+}
+
+.name {
+	font-size: 28px;
+}
+
+.menu {
+	margin-top: 50px;
+}
+
+.menu__inner {
+	display: flex;
+	gap: 10px;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	text-align: center;
+}
+
+.long {
+	padding: 5px 10px;
+	width: 310px;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.base {
+	display: flex;
+	gap: 10px;
+}
+
+.basic {
+	padding: 5px 10px;
+	width: 150px;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.big {
+	padding: 5px 10px;
+	width: 310px;
+	height: 310px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-end;
+	background-image: url(/img/Mobile\ Wallpaper.png);
+}
+
+.long1 {
+	padding: 5px 10px;
+	width: 310px;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-end;
+}
+
+.minis {
+	display: flex;
+	gap: 10px;
+	max-width: 150px;
+	flex-wrap: wrap;
+}
+
+.mini {
+	padding: 2px 5px;
+	width: 70px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.photo {
+	background-image: url(/img/Green\ Backgrounds\ Aesthetic.png);
+}
+
+.health {
+	align-items: flex-start;
+	justify-content: flex-end;
+}
+.health img {
+	width: 35px;
+}
