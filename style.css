@@ -96,7 +96,7 @@ body {
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: flex-end;
-	background-image: url(/img/Mobile\ Wallpaper.png);
+	background-image: url(./img/Mobile\ Wallpaper.png);
 }
 
 .long1 {
@@ -126,7 +126,7 @@ body {
 }
 
 .photo {
-	background-image: url(/img/Green\ Backgrounds\ Aesthetic.png);
+	background-image: url(./img/Green\ Backgrounds\ Aesthetic.png);
 }
 
 .health {
